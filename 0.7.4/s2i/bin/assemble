@@ -12,7 +12,7 @@ cp -Rf /tmp/src/. ./
 
 
 echo "---> Building your conan application from source"
-conan install && conan build
+conan install . && conan build .
 
 
 # Fix source directory permissions
